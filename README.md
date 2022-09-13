@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Bem vindos a minha Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto como o próprio nome sugere é basicamente uma pokedex. Aqui temos armazenadas algumas informações sobre os 151 primeiros Pokémon. Mas a ideia é que em algum tempo eu retorne a esse projeto para dar espaço paras todos os outros monstrinhos terem seu espaço na minha dex.
 
-## Available Scripts
+<div>
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png">
+</div>
 
-In the project directory, you can run:
+<h2> Objetivo </h2>
 
-### `npm start`
+O objetivo desse projeto foi praticar alguns conceitos básicos de desenvolvimento web com Javascript aplicado ao ReactJS e o NodeJS. O projeto foi idealizado com essas tecnologias, utilizando do conceito de pacotes de desenvolvimento com o NPM, e do uso de Componentes no React, juntamente com os famosos hook useState e useEffect.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div>
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png">
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2> Tecnologias </h2>
 
-### `npm test`
+Este projeto foi realizado em <a href="https://pt-br.reactjs.org/" target="_blank">React</a> usando JavaScript. Para conseguir os dados sobre os Pokémon foi utilizado a <a href="https://pokeapi.co/" target="_blank">Poke API </a>, que possuiu MUITOS dados sobre Pokémon. A estilização foi feita com CSS3 e HTML5 junto ao React. Para realizar chamadas a Poke API foi utilizado o <a href="https://axios-http.com/docs/intro" target="_blank">Axios </a>. Alguns icones foram retirados do <a href="https://react-icons.github.io/react-icons/" target="_blank" > React Icons </a>, uma vasta biblioteca de icones que podem ser muito utéis no dia a dia. E por fim o gerenciamento das rotas foi construído utilizando o <a href="https://reactrouter.com/en/main" target="_blank"> React Router </a>.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png">
+</div>
