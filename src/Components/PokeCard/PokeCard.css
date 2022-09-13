@@ -1,0 +1,41 @@
+.PokeCardContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 200px;
+
+  background-color: #d6d6d6;
+  border-radius: 7px;
+
+  cursor: pointer;
+
+  transition: all 500ms ease-in-out;
+}
+
+.PokeCardContainer:hover {
+  background-color: #b0b0b0;
+}
+
+.PokeCardContainer img {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+#PokeNumber {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+#PokeName {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#PokeType {
+  font-size: 16px;
+  margin-bottom: 20px;
+}

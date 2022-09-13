@@ -1,0 +1,53 @@
+.SearchContainer {
+  display: flex;
+
+  z-index: 9999;
+  position: sticky;
+  top: 0;
+
+  width: 100%;
+  height: 10vh;
+
+  background-color: #202c33;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.InputContainer {
+  display: flex;
+  width: 50%;
+  height: 65%;
+}
+
+.InputContainer input {
+  width: 90%;
+  height: 100%;
+  padding-left: 10px;
+
+  background-color: #2a3942;
+  border: none;
+
+  outline: none;
+  box-shadow: none;
+  border-radius: 5px 0 0 5px;
+
+  color: #fff;
+  font-size: 16px;
+}
+
+.SearchIcon {
+  display: flex;
+  width: 10%;
+  background-color: #2a3942;
+  border-radius: 0 5px 5px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchIcon svg {
+  margin: 0;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+}
